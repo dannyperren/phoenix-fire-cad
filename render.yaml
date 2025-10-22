@@ -1,4 +1,4 @@
-services:
+ services:
   - type: web
     name: phoenix-fire-cad
     runtime: docker
@@ -29,6 +29,7 @@ services:
       name: data
       mountPath: /data
       sizeGB: 1
+
 databases:
   - name: phoenix-fire-cad-db
     databaseName: phoenix_fcad
