@@ -1,4 +1,4 @@
-services:
+ services:
   - type: web
     name: phoenix-fire-cad
     runtime: docker
@@ -9,12 +9,12 @@ services:
         value: 8080
       - key: DATABASE_URL
         fromDatabase:
-          name: Phoenix CAD
+          name: phoenix-fire-cad-db
           property: connectionString
       - key: UPLOAD_DIR
         value: /data/uploads
       - key: BASE_URL
-        value: https://phoenix-fire-cad.onrender.com
+        value: https://REPLACE_WITH_YOUR_RENDER_HOSTNAME
       - key: SMTP_HOST
         value: smtp.sendgrid.net
       - key: SMTP_PORT
@@ -31,7 +31,6 @@ services:
       sizeGB: 1
 
 databases:
-  - name: Phoenix CAD
-    databaseName: Phoenix CAD
+  - name: phoenix-fire-cad-db
+    databaseName: phoenix_fcad
     plan: free
-
