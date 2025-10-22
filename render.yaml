@@ -15,16 +15,16 @@
         value: /data/uploads
       - key: BASE_URL
         value: https://phoenix-fire-cad.onrender.com
-      - key: SMTP_HOST
-        value: smtp.sendgrid.net
-      - key: SMTP_PORT
-        value: 587
-      - key: SMTP_USER
-        sync: false
-      - key: SMTP_PASS
-        sync: false
-      - key: FROM_EMAIL
-        value: no-reply@your-domain.com
+      - key: 
+        value: 
+      - key: 
+        value: 
+      - key: 
+        sync: 
+      - key: 
+        sync: 
+      - key: 
+        value: 
     disk:
       name: data
       mountPath: /data
