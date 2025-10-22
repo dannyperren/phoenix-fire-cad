@@ -14,7 +14,7 @@
       - key: UPLOAD_DIR
         value: /data/uploads
       - key: BASE_URL
-        value: https://REPLACE_WITH_YOUR_RENDER_HOSTNAME
+        value: https://phoenix-fire-cad.onrender.com
       - key: SMTP_HOST
         value: smtp.sendgrid.net
       - key: SMTP_PORT
