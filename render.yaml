@@ -29,7 +29,7 @@ services:
       name: data
       mountPath: /data
       sizeGB: 1
-Databases:
+databases:
   - name: phoenix-fire-cad-db
     databaseName: phoenix_fcad
     plan: free
